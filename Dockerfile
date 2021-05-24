@@ -3,6 +3,8 @@ FROM node:lts-alpine
 # instala um servidor http simples para servir conteúdo estático
 RUN npm install -g http-server
 
+RUN npm install -g @vue/cli
+
 # faz da pasta 'app' o diretório atual de trabalho
 WORKDIR /app
 
