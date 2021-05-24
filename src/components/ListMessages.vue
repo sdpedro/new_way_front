@@ -28,7 +28,7 @@
                         <v-col cols="12">
                             <v-text-field
                                 v-model="message"
-                                label="Contuedo da mensagem"
+                                label="Mensagem"
                             ></v-text-field>
                         </v-col>                     
                     </v-row>

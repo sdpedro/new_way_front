@@ -95,6 +95,10 @@
                     this.alertMessage = "Favor preencher quem ira receber!";
                     return;
                 }
+                if (!this.message) {
+                    this.alertMessage = "Favor preencher a mensagem!";
+                    return;
+                }
                 MessageService.create({
                     from: this.from,
                     target_id: this.target_id,
