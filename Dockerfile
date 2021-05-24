@@ -1,3 +1,3 @@
 FROM node:10-alpine
 
-RUN yarn global add @vue/cli
+RUN npm install -g @vue/cli
