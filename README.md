@@ -1,24 +1,11 @@
 # new_way_front
 
-## Project setup
+## Instlando dependencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Subindo Serviço
 ```
-npm run serve
+docker-compose up
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
